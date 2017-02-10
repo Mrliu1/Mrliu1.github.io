@@ -1,6 +1,7 @@
 本人的第一个博客。记录
 JavaScript中的继承
 1）对象冒充
+
 ![mao chong](http://ol5jsz3yf.bkt.clouddn.com/extendVir.png)
 
 红色里面三行代码最关键。《问题》相同方法会覆盖
