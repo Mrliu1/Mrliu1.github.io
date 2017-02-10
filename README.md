@@ -1,14 +1,14 @@
 本人的第一个博客。记录
 JavaScript中的继承
 1）对象冒充
-
+![maochong](http://ol5jsz3yf.bkt.clouddn.com/extendVir.png)
 ff
 红色里面三行代码最关键。《问题》相同方法会覆盖
 2）call方法方式《任何方法都有call()这个方法》
 call 方法是Function对象中的方法，因此我们定义的每个函数都拥有该方法。可以通过函数名来调用call方法，call方法的第一个参数会被传递给函数中的this，从第二个参数开始，逐一赋给函数中的参数。
 
 //使用call方式实现对象的继承、
-```  
+   ```      
   function Parent(username){
         this.username=username;
         this.sayHello=function()
@@ -36,7 +36,7 @@ call 方法是Function对象中的方法，因此我们定义的每个函数都�
 5）混合方式《推荐》
 
 创建对象，用原型扩展方法，继承等的练习。实现测三角形面积和矩形面积和边为多少。
-
+```
 <head>
     <title></title>
 </head>
@@ -105,5 +105,6 @@ call 方法是Function对象中的方法，因此我们定义的每个函数都�
 </script>
 </body>
 </html>
+```
 
 教师的方法
