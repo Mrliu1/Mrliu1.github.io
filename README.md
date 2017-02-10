@@ -1,8 +1,8 @@
 本人的第一个博客。记录
 JavaScript中的继承
 1）对象冒充
-![maochong](http://ol5jsz3yf.bkt.clouddn.com/extendVir.png)
-ff
+![mao chong](http://ol5jsz3yf.bkt.clouddn.com/extendVir.png)
+
 红色里面三行代码最关键。《问题》相同方法会覆盖
 2）call方法方式《任何方法都有call()这个方法》
 call 方法是Function对象中的方法，因此我们定义的每个函数都拥有该方法。可以通过函数名来调用call方法，call方法的第一个参数会被传递给函数中的this，从第二个参数开始，逐一赋给函数中的参数。
