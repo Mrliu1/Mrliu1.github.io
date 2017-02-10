@@ -8,6 +8,8 @@ JavaScript中的继承
 2）call方法方式《任何方法都有call()这个方法》
 call 方法是Function对象中的方法，因此我们定义的每个函数都拥有该方法。可以通过函数名来调用call方法，call方法的第一个参数会被传递给函数中的this，从第二个参数开始，逐一赋给函数中的参数。
 
+![call in](http://ol5jsz3yf.bkt.clouddn.com/extendCall.png)
+
 //使用call方式实现对象的继承、
    ```      
   function Parent(username){
@@ -32,9 +34,15 @@ call 方法是Function对象中的方法，因此我们定义的每个函数都�
 ```
 3）applay方法方式
 
+![applay in](http://ol5jsz3yf.bkt.clouddn.com/extendApply.png)
+
 4）通过原型链的方式实现对象继承
 
+![prototype in](http://ol5jsz3yf.bkt.clouddn.com/extendPrototype.png)
+
 5）混合方式《推荐》
+
+![fixed in](http://ol5jsz3yf.bkt.clouddn.com/extendFix.png)  
 
 创建对象，用原型扩展方法，继承等的练习。实现测三角形面积和矩形面积和边为多少。
 ```
@@ -109,3 +117,5 @@ call 方法是Function对象中的方法，因此我们定义的每个函数都�
 ```
 
 教师的方法
+
+![teach in](http://ol5jsz3yf.bkt.clouddn.com/extendTeach.png)  
