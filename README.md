@@ -119,3 +119,4 @@ call 方法是Function对象中的方法，因此我们定义的每个函数都�
 教师的方法
 
 ![teach in](http://ol5jsz3yf.bkt.clouddn.com/extendTeach.png)  
+
